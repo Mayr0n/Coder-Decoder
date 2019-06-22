@@ -14,6 +14,7 @@ Je vais vous expliquer le fonctionnement du programme (c'est très simple) :
   - les accents comme "é" ou "ù"
   
 Vous devez aussi respecter une petite règle : **la première ligne doit être `Code : --` où les deux tirets sont les deux lettres du code !** par exemple : ok
+
 Une fois que vous avez écrit le texte, enregistrez et relancez le programme.
 
 3. Vous avez maintenant le texte modifié dans le fichier "apres.txt" !
