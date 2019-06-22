@@ -1,4 +1,4 @@
-# decoder
+# Décodeur
 Vous connaissez le code OK ? 
 (je parle de code au sens propre, pas programmation, donc pour parler sans être compris par ceux qui n'ont pas l'interprétation)
 
