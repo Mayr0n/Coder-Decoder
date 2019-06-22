@@ -8,7 +8,7 @@ Je vais vous expliquer le fonctionnement du programme (c'est très simple) :
 
 1. Lancez le programme, vous allez avoir un dossier de créé avec deux fichiers .txt à l'intérieur.
 
-2. Ecrivez dans le fichier "avant.txt" le texte que vous souhaitez coder ou décoder mais certaines exceptions ne sont pas modifiées :
+2. Ecrivez dans le fichier "avant.txt" le texte que vous souhaitez coder ou décoder, mais certaines exceptions ne sont pas modifiées :
   - les Majuscules
   - les chiffres / nombres
   - les accents comme "é" ou "ù"
