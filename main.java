@@ -52,7 +52,7 @@ public class Main {
                     i = 0;
                     for(String line : lines){ //s'exécute pour chaque ligne du fichier
                         for(char l : line.toCharArray()){ //s'exécute pour chaque lettre de la ligne "line"
-                            if(l == ' ' || l == ',' || l == ';' || l == '\'' || l == '!' || l == '?' || l == '.'){ //si l est une ponctuation => réécrit la ponctuation telle qu'elle est
+                            if(l == ' ' || l == ',' || l == ';' || l == '\'' || l == '!' || l == '?' || l == '.' || l == '-' || l == ')' || l == '(' || l == '{' || l == '}'){ //si l est une ponctuation => réécrit la ponctuation telle qu'elle est
                                 writer.write(l);
                             } else {
                                 for(char letter : letters) { //si l est une lettre => teste chaque lettre du tableau letters[] afin de connaître le numéro de la lettre l dans l'alphabet
@@ -60,6 +60,9 @@ public class Main {
                                         int newLetNum = i + toChange;
                                         if(newLetNum < 0){
                                             newLetNum = 26 + newLetNum;
+                                        }
+                                        if(newLetNum >= 26){
+                                            newLetNum = newLetNum - 26;
                                         }
                                         writer.write(letters.get(newLetNum));
                                         i = 0;
